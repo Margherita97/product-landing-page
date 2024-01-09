@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: linen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+#header-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#nav-list {
+    display: flex;
+    gap: 150px;
+    margin-right: 200px;
+}
+
+#nav-list, #footer-list {
+    list-style-type: none;
+}
+
+#nav-list .nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: purple;
+}
+
+#nav-list .nav-link:hover {
+    color: rgb(221, 82, 128);
+}
+
