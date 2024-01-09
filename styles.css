@@ -10,27 +10,30 @@ body {
 }
 
 header {
-   position: fixed;
-   top: 0;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(121, 216, 237);
 }
 
 #nav-list {
-    display: flex;
-    gap: 150px;
-    margin-right: 200px;
+  display: flex;
+  gap: 150px;
+  margin-right: 200px;
 }
 
 #nav-list,
-#footer-list {
+#footer-list,
+#pricing-list {
   list-style-type: none;
+  color: black;
 }
 
 #nav-list .nav-link {
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
   color: purple;
 }
@@ -90,13 +93,29 @@ main {
   height: 300px;
 }
 
-#pricing_list {
+#pricing-list {
   display: flex;
   gap: 100px;
   margin-bottom: 5%;
 }
 
-#pricing_list li {
-  list-style-type: none;
-  color: black;
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(121, 216, 237, 0.184);
+  color: purple;
+}
+
+#footer-list {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  gap: 40px;
+  color: purple;
+}
+
+#footer p {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
 }
